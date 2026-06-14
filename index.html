@@ -449,7 +449,7 @@ svg.icon-sm { width: 16px; height: 16px; fill: none; stroke: currentColor; strok
   background: linear-gradient(120deg, rgba(107,70,193,0.07), rgba(79,209,197,0.07));
   border: 1px solid var(--accent-border);
 }
-.ring-wrap { position: relative; width: 80px; height: 80px; flex-shrink: 0; }
+.ring-wrap { position: relative; width: 92px; height: 92px; flex-shrink: 0; }
 .ring-wrap svg { transform: rotate(-90deg); }
 .ring-bg { stroke: var(--color-gray-light); }
 .ring-fg { stroke: url(#ringGrad); stroke-linecap: round; transition: stroke-dashoffset 1.4s var(--spring); }
@@ -2078,7 +2078,7 @@ svg.icon-sm { width: 16px; height: 16px; fill: none; stroke: currentColor; strok
       await wait(1600); if (myId !== seqId || !running) return;
 
       // 2. cursor moves to first card and clicks
-      moveCursor(150, 120);
+      moveCursor(150, 198);
       await wait(800); if (myId !== seqId || !running) return;
       clickCursor();
       const firstCard = track.querySelector('[data-job="0"]');
