@@ -314,13 +314,10 @@ svg.icon-sm { width: 16px; height: 16px; fill: none; stroke: currentColor; strok
   z-index: 40;
 }
 .brand-mark {
-  width: 38px; height: 38px;
-  border-radius: 10px;
-  background: linear-gradient(135deg, var(--color-indigo), var(--accent-color));
-  display: flex; align-items: center; justify-content: center;
-  box-shadow: var(--shadow-glow);
+  height: 38px;
+  display: flex; align-items: center;
 }
-.brand-mark svg { width: 21px; height: 21px; stroke: #fff; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.brand-mark img { height: 38px; width: auto; display: block; }
 .brand-name { font-weight: 800; font-size: 1.05rem; letter-spacing: -0.02em; }
 .brand-name span { color: var(--accent-color); }
 
@@ -1156,9 +1153,8 @@ svg.icon-sm { width: 16px; height: 16px; fill: none; stroke: currentColor; strok
 <!-- ============ BRAND ============ -->
 <div class="brand">
   <div class="brand-mark">
-    <svg viewBox="0 0 24 24"><path d="M12 3 3 8l9 5 9-5-9-5Z"/><path d="M3 8v6l9 5 9-5V8"/><path d="m7 10.5 0 4.5"/></svg>
+    <img src="images/logo.png" alt="Wissen verbindet Logo">
   </div>
-  <div class="brand-name">Wissen <span>bleibt</span></div>
 </div>
 
 <div class="slide-counter"><b id="counterCur">01</b><span>/ 07</span></div>
